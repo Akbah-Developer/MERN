@@ -1,0 +1,22 @@
+{
+  "name": "simpleweb",
+  "version": "1.0.0",
+  "description": "Sample web site",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "SET NODE_ENV=DEVELOPMENT& nodemon server/server",
+    "prod": "SET NODE_ENV=PRODUCTION& nodemon server/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akbah",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
